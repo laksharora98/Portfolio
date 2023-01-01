@@ -1,4 +1,4 @@
-The goal of this competition is to predict monthly microbusiness density for 3135 USA counties using just 39 data points each.
+The goal of this competition is to predict monthly microbusiness density for GoDaddy for 3135 USA counties using just 39 data points each.
 
 1. In [EDA.ipynb](https://github.com/laksharora98/Portfolio/blob/master/Kaggle%20Projects/GoDaddy%20-%20Microbusiness%20Density%20Forecasting/EDA.ipynb), I explored the data. I concluded that the data has yearly seasonality.
 2. I first made a Naive Model which only uses the last observed value as baseline. [Link](https://github.com/laksharora98/Portfolio/blob/master/Kaggle%20Projects/GoDaddy%20-%20Microbusiness%20Density%20Forecasting/baseline%20last%20val.ipynb)
