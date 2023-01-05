@@ -1,0 +1,45 @@
+passengerid - all unique - drop 
+            - gggg_pp 
+            - extracted group - continuous
+                and group size - use
+            - avg. size = 1.4 - small groups
+
+            Q1 - Do all members of a group get transported 
+                together?
+            Q2 - Do all members belong to same family?
+
+homeplanet  - 3 unique - One hot 
+
+cryosleep   - binary
+
+cabin       - drop
+            - deck/num/side - extract all 3
+            - deck - one hot
+            - num - float
+            - side - binary
+            
+            Q3 - Is this correlated to group for every deck?
+
+destination - 3 unique - one hot
+
+age         - has 260 entries with age 0
+            - normally distributed
+
+vip         - binary
+            - almost all False
+
+roomservice, foodcourt, shoppingmall, spa, vrdeck:
+            - log transformed, highly skewed
+
+name        - almost all unique - drop
+            - extracted surname
+                - high cardinality
+
+
+Three pairs have correlation > 0.4
+    - Group, CabinNum
+    - log_FoodCourt, log_Spa
+    - log_FoodCourt, log_VRDeck
+    - use Factor Analysis
+
+
