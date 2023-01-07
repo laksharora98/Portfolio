@@ -45,7 +45,7 @@ Three pairs have correlation > 0.4
 Average gini purity of groups wrt Transported variable is 0.739
     - use for missing value imputation
 
-All groups have same surname in them
+Average proportion of common surnames is 0.935
     - use for missing value imputation
 
 Target distribution:
@@ -57,3 +57,20 @@ log vars - 0, >0
 
 VIP - not useful
 CabinDeck - drop T
+
+
+Missing values
+
+groupsize>1 with group's central tendency
+groupsize=1 with overall central tendency
+cabinnum with group
+
+Save processed data. 
+
+EDA Complete
+
+
+
+
+Modeling
+
