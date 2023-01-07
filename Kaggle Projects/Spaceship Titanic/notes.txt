@@ -37,9 +37,23 @@ name        - almost all unique - drop
 
 
 Three pairs have correlation > 0.4
-    - Group, CabinNum
+    - Group, CabinNum - use to impute missing values
     - log_FoodCourt, log_Spa
     - log_FoodCourt, log_VRDeck
     - use Factor Analysis
 
+Average gini purity of groups wrt Transported variable is 0.739
+    - use for missing value imputation
 
+All groups have same surname in them
+    - use for missing value imputation
+
+Target distribution:
+Age binning - 0-17, 18-42, 42-
+group binning - 0-3350, 3351-7500, 7500-
+group size - 1, >1
+cabin num - 0-300, 301-700, 700-1175, >1175
+log vars - 0, >0
+
+VIP - not useful
+CabinDeck - drop T
